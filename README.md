@@ -45,7 +45,7 @@ While the rate of fatal road accidents has been decreasing steadily since the 80
 clusters
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/clusters.png)
 
-* The data given to us was originally collected by the National Highway Traffic Safety Administration and the National Association of Insurance Commissioners. This particular dataset was compiled and released as a CSV-file by FiveThirtyEight under the CC-BY4.0 license.
+* The data given to us was originally collected by the National Highway Traffic Safety Administration and the National Association of Insurance Commissioners. This particular dataset was compiled and released as a [CSV-file](https://github.com/fivethirtyeight/data/tree/master/bad-drivers) by FiveThirtyEight under the [CC-BY4.0 license](https://github.com/%EF%AC%81vethirtyeight/data).
 
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/violin%20plot.png)
 
