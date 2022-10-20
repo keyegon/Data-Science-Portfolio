@@ -36,16 +36,17 @@ Can you predict which reviews come from people who have never owned the moped be
 
 - To get a sense for the distribution of variables within the data and could consist of one histogram per column. It is often a good idea to also explore the pairwise relationship between all columns in the data set by using a using pairwise scatter plots (sometimes referred to as a "scatterplot matrix").
 While the rate of fatal road accidents has been decreasing steadily since the 80s, the past ten years have seen a stagnation in this reduction. Coupled with the increase in number of miles driven in the nation, the total number of traffic related-fatalities has now reached a ten year high and is rapidly increasing.
-![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/scatter%20viz.png)
-* We find that there is a lot of variation between states. Now we want to understand if there are patterns in this variation in order to derive suggestions for a policy action plan. In particular, instead of implementing a costly nation-wide plan we want to focus on groups of states with similar profiles. How can we find such groups in a statistically sound way and communicate the result effectively?
+![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/scatter.png)
 
+* We find that there is a lot of variation between states. Now we want to understand if there are patterns in this variation in order to derive suggestions for a policy action plan. In particular, instead of implementing a costly nation-wide plan we want to focus on groups of states with similar profiles. How can we find such groups in a statistically sound way and communicate the result effectively?
+![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/scatter%20viz.png)
 - We will make use of data wrangling, plotting, dimensionality reduction, and unsupervised clustering.
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/Kmeans.png)
 clusters
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/clusters.png)
 
 * The data given to us was originally collected by the National Highway Traffic Safety Administration and the National Association of Insurance Commissioners. This particular dataset was compiled and released as a CSV-file by FiveThirtyEight under the CC-BY4.0 license.
-![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/scatter.png)
+
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/violin%20plot.png)
 
 ## [Project 4: Using Natural Language Programming to Predict words](https://ri45rz-erick-yegon.shinyapps.io/Capstone)
