@@ -1,4 +1,5 @@
-# Erick Yegon, PhD, MSc, BSc Data Science Portfolio
+# Erick Yegon, PhD  Data Science Portfolio
+
 Welcome to my portfolio that shows highlights of some work i have done in my data science journey. As you will see below, in my journey to answer a broad range of data science question my journey has seen me  utilize tools such as:
 - R 
 - Python
