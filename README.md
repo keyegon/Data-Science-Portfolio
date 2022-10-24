@@ -19,7 +19,7 @@ These  projects focuses on my experience around rousing and mining data from wes
 
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/Average%20Difference%20over%20time.png)
 
-This data shows that the ![average rotten tomatoes score](https://en.wikipedia.org/wiki/Rotten_Tomatoes) by streaming services was highest for Hulu. TV ratings were similar for disney, netflix and amazon. from this analysis we note that over time the average difference between audiences and critics over time has veen increasing ad  started coming down after the year 2020
+This data shows that the [average rotten tomatoes score](https://en.wikipedia.org/wiki/Rotten_Tomatoes) by streaming services was highest for Hulu. TV ratings were similar for disney, netflix and amazon. From this analysis we note that over time the average difference between audiences and critics over time has been increasing and started coming down after the year 2020
 
 # [Project 2: Predicting Customer reviews](https://app.datacamp.com/workspace/w/314d154e-22ea-4efb-b758-efa019946b2d)
 ## Company Background
@@ -28,7 +28,7 @@ This data shows that the ![average rotten tomatoes score](https://en.wikipedia.o
 
 ## Solution
 Given this is a classification challenge, the solution lies in exploring the data to identify  ownership of moped and  ratings thereof. This is a classification problem as it is a supervised learning approach in which the computer program learns from the data and makes new observations or classifications. I employed a logistic Regression because of its prowess in predicting probabilities between any two classes. Concisely, by looking at historical data, logistic regression can predict whether: A customer is owned or not.  For my comparison model, I chose Decision Tree Classifier as it is easy to interpret and can easily capture Non-linear patterns
-![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/Percent%20Ownership.png)
+![ownership](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/Percent%20Ownership.png)
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/ratings.png)
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/confusion%20Matrix.png)
 
