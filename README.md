@@ -22,8 +22,8 @@ These  projects focuses on my experience around rousing and mining data from wes
 This data shows that the [average rotten tomatoes score](https://en.wikipedia.org/wiki/Rotten_Tomatoes) by streaming services was highest for Hulu. TV ratings were similar for disney, netflix and amazon. From this analysis we note that over time the average difference between audiences and critics over time has been increasing and started coming down after the year 2020
 
 # [Project 2: Predicting Customer reviews](https://app.datacamp.com/workspace/w/314d154e-22ea-4efb-b758-efa019946b2d)
-## Company Background
-* EMO is a manufacturer of motorcycles. The company successfully launched its first electric moped in India in 2019. The product team knows how valuable owner reviews are in making improvements to their mopeds.
+## This project was done as part of my Data Science certification at Datacamp.  The project aims to assist  a  manufacturer of motorcycles that successfully launched its first electric moped in India in 2019 and want a classification sustem for customer reviews.
+
 * Problem:  Due to many reviews from people who never owned Moped motorcyles, how do we exclude  reviews from sucj so that we only consider reviews from owners who actually owned moped 
 
 ## Solution
