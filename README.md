@@ -21,14 +21,17 @@ These  projects focuses on my experience around rousing and mining data from wes
 # [Project 2: Predicting Customer reviews](https://app.datacamp.com/workspace/w/314d154e-22ea-4efb-b758-efa019946b2d)
 ## Company Background
 * EMO is a manufacturer of motorcycles. The company successfully launched its first electric moped in India in 2019. The product team knows how valuable owner reviews are in making improvements to their mopeds.
+* Problem:  Due to many reviews from people who never owned Moped motorcyles, how do we exclude  reviews from sucj so that we only consider reviews from owners who actually owned moped 
 
-* Unfortunately they often get reviews from people who never owned the moped. They don’t want to consider this feedback, so would like to find a way to identify reviews from these people. They have obtained data from other mopeds, where they know if the reviewer owned the moped or not. They think this is equivalent to their own reviews.
-
-## Problem 
-Can you predict which reviews come from people who have never owned the moped before?
+## Solution
+Given this is a classification challenge, the solution lies in exploring the data to identify  ownership of moped and  ratings thereof. This is a classification problem as it is a supervised learning approach in which the computer program learns from the data and makes new observations or classifications. I employed a logistic Regression because of its prowess in predicting probabilities between any two classes. Concisely, by looking at historical data, logistic regression can predict whether: A customer is owned or not.  For my comparison model, I chose Decision Tree Classifier as it is easy to interpret and can easily capture Non-linear patterns
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/Percent%20Ownership.png)
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/ratings.png)
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/confusion%20Matrix.png)
+
+The confusion matrix is useful in comparing the models because it is to be exploited on a data set with known true and false values. In addition it is important to use the recall score as it calculates how many of the actual positives our model capture by labelling it as positive (True Positive). Also, it is the best model metric to use when an inflated cost is associated with a False Negative. The confusion matrix tells us that the total number of accurate predictions for my logistic regression model is more than the number of incorrect predictions. 
+
+For my decision tree model, the total number of accurate predictions is also more than the number of incorrect predictions.The better-performing approach would be the decision tree model, which has more accurate predictions than the logistic regression model. We can clonclude from this prolem that the decision tree model showed better performances compared to the logistic regression model, as shown by the confusion matrix; the recall score also confirms it.
 
 ## [Project 3: Reducing Traffic Mortality in the USA](https://app.datacamp.com/workspace/w/def90728-19ec-4a6f-b8e3-a471e2ca07b5)
 
