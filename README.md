@@ -9,15 +9,18 @@ Welcome to my portfolio that shows highlights of some work i have done in my dat
 
 These  projects focuses on my experience around rousing and mining data from wesites, data cleaning and wrangling, Testing statistical analysis, machine learning( supervised and unsupervised  learning) and generating maps
 
-# [Project 1: Analyzing Streaming Service Content in SQL](https://app.datacamp.com/workspace/w/6346db3a-a2e9-4b31-9287-45c438911e7a)
-* Joined amazon, hulu, netflix, and disney data tables and cleaned the data by removing null values in various data tables, in order to determing the most family-friedly streaming services, using pattern matching to find any references to "kids", "family", etc.,
+# [Project 1: Which Streaming Service Content had the highest raing content and whether critics and audiences are more aligned toon TV shows in the past: Analysis using SQL](https://app.datacamp.com/workspace/w/6346db3a-a2e9-4b31-9287-45c438911e7a)
+* In this project we obtained data from four databses( amazon, hulu, netflix, and disney) and joined. This was followed y cleaning of the data by removing null values in various data tables, in order to determing the most family-friedly streaming services, using pattern matching to find any references to "kids", "family", etc.,
 * Determined which streaming services had the highest-rated content using SPLIT_PART() to extract the number from the column and then cast (::) the result as a numeric type
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/Family%20Oriented.png)
 
-* Finally analyzed the data to  look into whether critics and audiences were more aligned on tv shows in the past. use the joined data to 
+* Finally analyzed the data to  look into whether critics and audiences were more aligned on tv shows in the past. 
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/average%20over%20time%202.png)
 
 ![](https://github.com/keyegon/Data-Science-Portfolio/blob/main/images/Average%20Difference%20over%20time.png)
+
+This data shows that the ![average rotten tomatoes score](https://en.wikipedia.org/wiki/Rotten_Tomatoes) by streaming services was highest for Hulu. TV ratings were similar for disney, netflix and amazon. from this analysis we note that over time the average difference between audiences and critics over time has veen increasing ad  started coming down after the year 2020
+
 # [Project 2: Predicting Customer reviews](https://app.datacamp.com/workspace/w/314d154e-22ea-4efb-b758-efa019946b2d)
 ## Company Background
 * EMO is a manufacturer of motorcycles. The company successfully launched its first electric moped in India in 2019. The product team knows how valuable owner reviews are in making improvements to their mopeds.
