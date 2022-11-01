@@ -65,23 +65,26 @@ This project was prepared as a capstone project for the Coursera/John Hopkins Da
 * Using a 5-gram dictionary paired with a 'Stupid Backoff' model, the application predicts the next word of sentences from user input with a top prediction rate of 11.51% and top-3 rate of 21.31%.
 [The project can be accessed here](https://ri45rz-erick-yegon.shinyapps.io/Capstone)
 
-## [Project 5: Predicting the number of Website views based on  Boats features ](https://app.datacamp.com/workspace/w/ca4805d3-f980-4dc6-baca-3483cdf571d7)
+## [Project 5: Predicting the number of Website views based on  boat features ](https://app.datacamp.com/workspace/w/ca4805d3-f980-4dc6-baca-3483cdf571d7)
 This Project  was prepatred as part of Data Camp Data Science certification.
-**Synopsus**
+
+**Synopsis**
 
 Nearly New Nautical is a website that allows users to advertise their used boats for sale. When users list their boat, they have to provide a range of information about their boat. Boats that get lots of views bring more traffic to the website, and more potential customers.
 
 To boost traffic to the website, the product manager wants to prevent listing boats that do not receive many views.
 
 **Customer Question**
+
 The product manager wants us to help them predict the number of views a listing will receive based on the boat's features. 
 
 **Success Criteria**
+
 The product manager would consider using this model if on average, the predictions were only 50% off of the true number of views a listing would receive.
 
 We were able to predict a model that Our model was successful; our predictions are on average roughly 43% off of the true number of views a listing would receive.
 
-MAde recommendations that included  the need to improve overall the data quality as there was alot of missing values and lots of listings had wrong data. A simple data validator could be used on the website to avoid problems. The business should focus on Europe, particularly with Switzerland. They could make marketing efforts on small cabin boats and, above all, with cheap boats.
+Made recommendations that included  the need to improve overall the data quality as there was alot of missing values and lots of listings had wrong data. A simple data validator could be used on the website to avoid problems. The business should focus on Europe, particularly with Switzerland. They could make marketing efforts on small cabin boats and, above all, with cheap boats.
 
 We saw how adding the location and the manufacturer to our model improved it. As a business, the manager should make these two values mandatory before a person is able to list a boat.
 
